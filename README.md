@@ -1,19 +1,10 @@
 # Redkiwi demo
-
-A Symfony 3.0.0 project created on December 1, 2015, 4:16 pm.
-
-## Used references
- - http://symfony.com/doc/current/cookbook/console/console_command.html
- - http://climate.thephpleague.com/
- - http://www.retrojunkie.com/asciiart/animals/hamsters.htm
- - http://www.retrojunkie.com/asciiart/animals/eagles.htm
- - http://www.retrojunkie.com/asciiart/holidays/xmas.htm
  
 ## Installation
   First do a clone to this project
   
   ```
-  git clone git@bitbucket.org:Danman1987/connect-holland.git
+  git clone git@bitbucket.org:Danman1987/clifun.git
   ```
   
   If cloning is done run the following command in the folder
@@ -29,21 +20,21 @@ A Symfony 3.0.0 project created on December 1, 2015, 4:16 pm.
   When done use the following command for a default result.
   
   ```
-  bin/console ch:demo
+  bin/console clifun:demo
   ```
   
   You can use some arguments, like this:
   
   ```
-  bin/console ch:demo eagle
+  bin/console clifun:demo eagle
   ```
   
-  You can also use "christmas" as an argument. The default is hamster.
+  You can also use "hamster" as an argument. The default is kiwi.
   
   You also can use the option color to cheer things up:
   
   ```
-  bin/console ch:demo christmas --color=red
+  bin/console clifun:demo hamster --color=red
   ```
   
   These are the colors you can choose from:
