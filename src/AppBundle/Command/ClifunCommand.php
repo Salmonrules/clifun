@@ -52,7 +52,7 @@ class ClifunCommand extends ContainerAwareCommand
 
         // If argument is empty. Call the hamster.
         if (empty($object)) {
-            $object = 'kiwi';
+            $object = 'earth';
         }
 
         // Return the requested object
@@ -66,6 +66,7 @@ class ClifunCommand extends ContainerAwareCommand
     {
         // Set the default color to white
         $color = 'white';
+
         // If the color is choosen, change the color
         if ($input->getOption('color')) {
             $color = $input->getOption('color');

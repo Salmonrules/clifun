@@ -1,10 +1,14 @@
-# Redkiwi demo
+# CLIfun demo
  
 ## Installation
   First do a clone to this project
   
   ```
+  // Bitbucket
   git clone git@bitbucket.org:Danman1987/clifun.git
+  
+  // Github
+  git clone git@github.com:Salmonrules/clifun.git
   ```
   
   If cloning is done run the following command in the folder
