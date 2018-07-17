@@ -33,7 +33,7 @@
   bin/console clifun:demo eagle
   ```
   
-  You can also use "hamster" as an argument. The default is kiwi.
+  You can also use "hamster" as an argument. The default is earth.
   
   You also can use the option color to cheer things up:
   
